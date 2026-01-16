@@ -43,10 +43,14 @@ export default function Home() {
         Leave the rest.
       </p>
 
-      <div style={{ marginBottom: "4rem" }}>
-        <p style={{ fontWeight: 500 }}>Read a truth</p>
-        <p style={{ fontWeight: 500 }}>Submit a truth</p>
-      </div>
+      <a href="/read" style={{ fontWeight: 500, display: "block", marginBottom: "1rem" }}>
+  Read a truth
+</a>
+
+<a href="/submit" style={{ fontWeight: 500 }}>
+  Submit a truth
+</a>
+
 
       <hr style={{ marginBottom: "2.5rem" }} />
 
