@@ -42,7 +42,7 @@ export default function Home() {
         Take what’s useful.<br />
         Leave the rest.
       </p>
-
+<div style={{ marginBottom: "4rem" }}>
       <a href="/read" style={{ fontWeight: 500, display: "block", marginBottom: "1rem" }}>
   Read a truth
 </a>
@@ -51,7 +51,7 @@ export default function Home() {
   Submit a truth
 </a>
 
-
+        </div>
       <hr style={{ marginBottom: "2.5rem" }} />
 
       <h2 style={{ fontSize: "1.25rem", fontWeight: 500, marginBottom: "1.5rem" }}>
