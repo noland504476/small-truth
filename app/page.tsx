@@ -45,4 +45,24 @@ export default function Home() {
 
       <div style={{ marginBottom: "4rem" }}>
         <p style={{ fontWeight: 500 }}>Read a truth</p>
-        <p style={{ fontWeight: 500 }}>Submi
+        <p style={{ fontWeight: 500 }}>Submit a truth</p>
+      </div>
+
+      <hr style={{ marginBottom: "2.5rem" }} />
+
+      <h2 style={{ fontSize: "1.25rem", fontWeight: 500, marginBottom: "1.5rem" }}>
+        What this place is
+      </h2>
+
+      <p>No profiles.</p>
+      <p>No likes.</p>
+      <p>No algorithms.</p>
+      <p>No performance.</p>
+
+      <p style={{ marginTop: "1.5rem" }}>
+        Just words, shared quietly.
+      </p>
+
+    </main>
+  );
+}
