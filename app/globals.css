@@ -121,3 +121,8 @@ p {
   height: 1px;
   background: var(--rule);
 }
+.split h3 {
+  color: var(--text-soft);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
