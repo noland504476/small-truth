@@ -28,24 +28,6 @@ export default function PrivacyPage() {
     </main>
   );
 }
-Why this works
-Matches the emotional temperature of the site
-
-Feels finished without feeling corporate
-
-Builds trust quietly
-
-No promises you can’t keep
-
-Next, when you’re ready:
-
-Light styling pass (same fonts, softer spacing)
-
-Optional footer link styling
-
-Decide whether About/Privacy appear anywhere else (they don’t need to)
-
-This is exactly the right level.
 
 
 
