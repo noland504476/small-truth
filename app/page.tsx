@@ -52,6 +52,37 @@ export default function Home() {
 </a>
 
         </div>
+    
+     <section style={{ marginTop: "3.5rem" }}>
+  <p style={{ fontWeight: 500, marginBottom: "1rem" }}>
+    Find something closer to what you’re feeling
+  </p>
+
+  <ul style={{ listStyle: "none", padding: 0, lineHeight: 2 }}>
+    <li>
+      <a href="/read?category=grief" className="category-link">Grief</a>
+    </li>
+    <li>
+      <a href="/read?category=change" className="category-link">Change</a>
+    </li>
+    <li>
+      <a href="/read?category=starting-over" className="category-link">Starting Over</a>
+    </li>
+    <li>
+      <a href="/read?category=loneliness" className="category-link">Loneliness</a>
+    </li>
+    <li>
+      <a href="/read?category=identity" className="category-link">Identity</a>
+    </li>
+    <li>
+      <a href="/read?category=uncertainty" className="category-link">Uncertainty</a>
+    </li>
+    <li>
+      <a href="/read?category=random" className="category-link">Random Truth</a>
+    </li>
+  </ul>
+</section> 
+      
       <hr style={{ marginBottom: "2.5rem" }} />
 
       <h2 style={{ fontSize: "1.25rem", fontWeight: 500, marginBottom: "1.5rem" }}>
