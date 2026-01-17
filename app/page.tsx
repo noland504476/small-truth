@@ -50,13 +50,12 @@ export default function HomePage() {
           </div>
 
           <div>
-            <h3>This site is not:</h3>
-            <ul>
+            <h3>This site is not:
+           
               <li>A forum</li>
               <li>Therapy</li>
-              <li>Advice</li>
-              <li>Social media</li>
-            </ul>
+              Advice
+            </h3>
           </div>
         </div>
       </section>
