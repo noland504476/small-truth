@@ -24,7 +24,7 @@ export default function HomePage() {
 
         </div>
     
-<div className="choice-grid"
+<div className="choice-grid" >
 
 
  
