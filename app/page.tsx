@@ -1,47 +1,18 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <main>
-      
-      <h1>
-        Small Truths
-      </h1>
+    <>
+      <main>
+        <h1>A place for small truths, shared quietly.</h1>
 
-      <p>
-        <em>A quiet place for things learned the hard way.</em>
-      </p>
+        <p>
+          Lived experience, not advice. Anonymous writing, meant to be found
+          slowly.
+        </p>
 
-      <p>
-        Small Truths is a collection of brief, honest reflections from people who have been through something — or are still finding their way through it.
-      </p>
+        <div className="rule" />
 
-      <p>This is not advice.</p>
-      <p>It’s not motivation.</p>
-      <p style={{ marginBottom: "1.5rem" }}>
-        And it’s not here to fix you.
-      </p>
+        <h2>Why are you here?</h2>
 
-      <p>Some truths come from disappointment.</p>
-      <p>Some from loss.</p>
-      <p>
-        Some from change, grief, or starting over.
-      </p>
-
-      <p>They appear quietly.</p>
-      <p>They stay for a while.</p>
-      <p>
-        Then they’re archived.
-      </p>
-
-      <p>You don’t need to agree with them.</p>
-      <p>You don’t need to act on them.</p>
-      <p>
-        You don’t even need to finish reading.
-      </p>
-
-      <p>
-        Take what’s useful.<br />
-        Leave the rest.
-      </p>
 <div>
       <a href="/read">
   Read a truth
@@ -53,41 +24,63 @@ export default function Home() {
 
         </div>
     
-   <section className="section">
-        <p className="section-title">
-    Find something closer to what you’re feeling
-  </p>
+<div className="choice-grid"
 
-  <ul className="category-list">
-          <li><a className="category-link" href="/read?category=grief">Grief</a></li>
-          <li><a className="category-link" href="/read?category=change">Change</a></li>
-          <li><a className="category-link" href="/read?category=starting-over">Starting Over</a></li>
-          <li><a className="category-link" href="/read?category=loneliness">Loneliness</a></li>
-          <li><a className="category-link" href="/read?category=identity">Identity</a></li>
-          <li><a className="category-link" href="/read?category=uncertainty">Uncertainty</a></li>
-          <li><a className="category-link" href="/read?category=random">Random Truth</a></li>
-        </ul>
-      </section>
+
+ 
+          <a className="choice" href="/read?category=grief">Grief</a>
+          <a className="choice" href="/read?category=change">Change</a>
+          <a className="choice" href="/read?category=starting-over">Starting Over</a>
+          <a className="choice" href="/read?category=loneliness">Loneliness</a>
+          <a className="choice" href="/read?category=identity">Identity</a>
+          <a className="choice" href="/read?category=uncertainty">Uncertainty</a>
+          <a className="choice" href="/read?category=random">Random Truth</a>
+       </div>
       
-      <hr>
+   <p className="helper-text">
+          Choose one. You’ll see one or a few pieces — never many.
+        </p>
+      </main>
 
-      <h2>
-        What this place is
-      </h2>
+      <section className="section-muted">
+        <div className="split">
+          <div>
+            <h3>This site is:</h3>
+            <ul>
+              <li>Anonymous</li>
+              <li>Curated</li>
+              <li>Quiet</li>
+              <li>Temporary</li>
+            </ul>
+          </div>
 
-      <p>No profiles.</p>
-      <p>No likes.</p>
-      <p>No algorithms.</p>
-      <p>No performance.</p>
+          <div>
+            <h3>This site is not:</h3>
+            <ul>
+              <li>A forum</li>
+              <li>Therapy</li>
+              <li>Advice</li>
+              <li>Social media</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-      <p>
-        Just words, shared quietly.
-      </p>
-   
-        <footer className="footer">
-        <a href="/about">About</a>
-        <a href="/privacy">Privacy</a>
-      </footer>
-    </main>
+      <main>
+        <p>
+          Most writing here disappears after a while.
+          <br />
+          Some may return later.
+          <br />
+          Nothing is optimized for attention.
+        </p>
+
+        <div className="footer">
+          <a href="/about">About</a>
+          <a href="/submit">Submissions</a>
+          <a href="/privacy">Privacy</a>
+        </div>
+      </main>
+    </>
   );
 }
