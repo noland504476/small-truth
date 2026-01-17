@@ -97,3 +97,14 @@ hr {
   border-top: 1px solid var(--border);
   margin: 3rem 0;
 }
+.category-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.category-link:hover {
+  border-bottom-color: rgba(0, 0, 0, 0.3);
+  opacity: 0.85;
+}
