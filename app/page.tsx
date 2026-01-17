@@ -66,7 +66,19 @@ export default function Home() {
       <p style={{ marginTop: "1.5rem" }}>
         Just words, shared quietly.
       </p>
+<footer style={{ marginTop: "4rem", paddingTop: "2rem" }}>
+  <hr />
 
+  <nav style={{ marginTop: "1.5rem", fontSize: "0.9rem", color: "#6f6f6f" }}>
+    <a href="/about" style={{ marginRight: "1.5rem" }}>
+      About
+    </a>
+
+    <a href="/privacy">
+      Privacy
+    </a>
+  </nav>
+</footer>
     </main>
   );
 }
