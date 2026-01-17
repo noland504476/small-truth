@@ -1,16 +1,16 @@
 export default function Home() {
   return (
-    <main style={{ maxWidth: "680px", margin: "0 auto", padding: "4rem 1.5rem", lineHeight: 1.6 }}>
+    <main>
       
-      <h1 style={{ fontSize: "2.5rem", fontWeight: 500, marginBottom: "1.5rem" }}>
+      <h1>
         Small Truths
       </h1>
 
-      <p style={{ fontSize: "1.25rem", marginBottom: "2.5rem" }}>
+      <p>
         <em>A quiet place for things learned the hard way.</em>
       </p>
 
-      <p style={{ marginBottom: "1.5rem" }}>
+      <p>
         Small Truths is a collection of brief, honest reflections from people who have been through something — or are still finding their way through it.
       </p>
 
@@ -22,70 +22,56 @@ export default function Home() {
 
       <p>Some truths come from disappointment.</p>
       <p>Some from loss.</p>
-      <p style={{ marginBottom: "1.5rem" }}>
+      <p>
         Some from change, grief, or starting over.
       </p>
 
       <p>They appear quietly.</p>
       <p>They stay for a while.</p>
-      <p style={{ marginBottom: "1.5rem" }}>
+      <p>
         Then they’re archived.
       </p>
 
       <p>You don’t need to agree with them.</p>
       <p>You don’t need to act on them.</p>
-      <p style={{ marginBottom: "2.5rem" }}>
+      <p>
         You don’t even need to finish reading.
       </p>
 
-      <p style={{ marginBottom: "3rem" }}>
+      <p>
         Take what’s useful.<br />
         Leave the rest.
       </p>
-<div style={{ marginBottom: "4rem" }}>
-      <a href="/read" style={{ fontWeight: 500, display: "block", marginBottom: "1rem" }}>
+<div>
+      <a href="/read">
   Read a truth
 </a>
 
-<a href="/submit" style={{ fontWeight: 500 }}>
+<a href="/submit">
   Submit a truth
 </a>
 
         </div>
     
-     <section style={{ marginTop: "3.5rem" }}>
-  <p style={{ fontWeight: 500, marginBottom: "1rem" }}>
+   <section className="section">
+        <p className="section-title">
     Find something closer to what you’re feeling
   </p>
 
-  <ul style={{ listStyle: "none", padding: 0, lineHeight: 2 }}>
-    <li>
-      <a href="/read?category=grief" className="category-link">Grief</a>
-    </li>
-    <li>
-      <a href="/read?category=change" className="category-link">Change</a>
-    </li>
-    <li>
-      <a href="/read?category=starting-over" className="category-link">Starting Over</a>
-    </li>
-    <li>
-      <a href="/read?category=loneliness" className="category-link">Loneliness</a>
-    </li>
-    <li>
-      <a href="/read?category=identity" className="category-link">Identity</a>
-    </li>
-    <li>
-      <a href="/read?category=uncertainty" className="category-link">Uncertainty</a>
-    </li>
-    <li>
-      <a href="/read?category=random" className="category-link">Random Truth</a>
-    </li>
-  </ul>
-</section> 
+  <ul className="category-list">
+          <li><a className="category-link" href="/read?category=grief">Grief</a></li>
+          <li><a className="category-link" href="/read?category=change">Change</a></li>
+          <li><a className="category-link" href="/read?category=starting-over">Starting Over</a></li>
+          <li><a className="category-link" href="/read?category=loneliness">Loneliness</a></li>
+          <li><a className="category-link" href="/read?category=identity">Identity</a></li>
+          <li><a className="category-link" href="/read?category=uncertainty">Uncertainty</a></li>
+          <li><a className="category-link" href="/read?category=random">Random Truth</a></li>
+        </ul>
+      </section>
       
-      <hr style={{ marginBottom: "2.5rem" }} />
+      <hr>
 
-      <h2 style={{ fontSize: "1.25rem", fontWeight: 500, marginBottom: "1.5rem" }}>
+      <h2>
         What this place is
       </h2>
 
@@ -94,22 +80,14 @@ export default function Home() {
       <p>No algorithms.</p>
       <p>No performance.</p>
 
-      <p style={{ marginTop: "1.5rem" }}>
+      <p>
         Just words, shared quietly.
       </p>
-<footer style={{ marginTop: "4rem", paddingTop: "2rem" }}>
-  <hr />
-
-  <nav style={{ marginTop: "1.5rem", fontSize: "0.9rem", color: "#6f6f6f" }}>
-    <a href="/about" style={{ marginRight: "1.5rem" }}>
-      About
-    </a>
-
-    <a href="/privacy">
-      Privacy
-    </a>
-  </nav>
-</footer>
+   
+        <footer className="footer">
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy</a>
+      </footer>
     </main>
   );
 }
