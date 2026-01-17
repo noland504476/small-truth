@@ -36,7 +36,7 @@ export default function HomePage() {
           Choose one. You’ll see one or a few pieces — never many.
         </p>
       </main>
-
+<div className="rule" />
       <section className="section-muted">
         <div className="split">
           <div>
@@ -48,7 +48,7 @@ export default function HomePage() {
               <li>Temporary</li>
             </ul>
           </div>
-
+<div className="rule" />
           <div>
             <h3>This site is not:</h3>
             <ul>
