@@ -126,3 +126,46 @@ p {
   opacity: 0.85;
 }
 
+/* --- This site is / This site is not --- */
+
+.site-meta {
+  background: #efeee9;
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+
+.site-meta-inner {
+  max-width: 560px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.site-meta h3 {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #6b6b6b;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.75rem;
+}
+
+.site-meta .divider {
+  width: 36px;
+  height: 1px;
+  background: #d6d6d6;
+  margin: 0 auto 1.25rem;
+}
+
+.site-meta ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.9;
+  color: #6b6b6b;
+}
+
+.site-meta li {
+  margin: 0.15rem 0;
+}
