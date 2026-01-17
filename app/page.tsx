@@ -11,16 +11,10 @@ export default function HomePage() {
 
         <div className="rule" />
 
-        <h2>Why are you here?</h2>
+        <h2>Find something closer to what you’re feeling</h2>
 
 <div>
-      <a href="/read">
-  Read a truth
-</a>
-
-<a href="/submit">
-  Submit a truth
-</a>
+ 
 
         </div>
     
@@ -35,7 +29,8 @@ export default function HomePage() {
           <a className="choice" href="/read?category=identity">Identity</a>
           <a className="choice" href="/read?category=uncertainty">Uncertainty</a>
           <a className="choice" href="/read?category=random">Random Truth</a>
-       </div>
+          <a className="choice" href="/submit"> Submit a truth</a>
+</div>
       
    <p className="helper-text">
           Choose one. You’ll see one or a few pieces — never many.
