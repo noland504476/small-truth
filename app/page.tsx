@@ -37,28 +37,31 @@ export default function HomePage() {
         </p>
       </main>
 <div className="rule" />
-      <section className="section-muted">
-        <div className="split">
-          <div>
-            <h3>This site is:</h3>
-            <ul>
-              <li>Anonymous</li>
-              <li>Curated</li>
-              <li>Quiet</li>
-              <li>Temporary</li>
-            </ul>
-          </div>
+     <section className="site-meta">
+  <div className="site-meta-inner">
+    <div>
+      <h3>This site is</h3>
+      <div className="divider"></div>
+      <ul>
+        <li>Anonymous</li>
+        <li>Curated</li>
+        <li>Quiet</li>
+        <li>Temporary</li>
+      </ul>
+    </div>
 
-          <div>
-            <h3>This site is not:</h3>
-           <ul>
-              <li>A forum</li>
-              <li>Therapy</li>
-             <li> Advice</li>
-           </ul>
-          </div>
-        </div>
-      </section>
+    <div>
+      <h3>This site is not</h3>
+      <div className="divider"></div>
+      <ul>
+        <li>A forum</li>
+        <li>Therapy</li>
+        <li>Advice</li>
+        <li>Social media</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
       <main>
         <p>
