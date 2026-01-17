@@ -104,6 +104,17 @@ hr {
   transition: border-color 0.2s ease, opacity 0.2s ease;
 }
 
+.section-title {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+
 .category-link:hover {
   border-bottom-color: rgba(0, 0, 0, 0.3);
   opacity: 0.85;
