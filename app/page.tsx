@@ -48,7 +48,7 @@ export default function HomePage() {
               <li>Temporary</li>
             </ul>
           </div>
-<div className="rule" />
+
           <div>
             <h3>This site is not:</h3>
             <ul>
