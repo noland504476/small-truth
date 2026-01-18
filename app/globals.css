@@ -175,7 +175,14 @@ p {
   margin: 0.15rem 0;
 }
 /* Global link style (normal text links only) */
+/* Ensure choice buttons always win */
+a.choice {
+  border-bottom: none;
+}
 
+a.choice:hover {
+  border-bottom: none;
+}
 a:not(.choice) {
   color: inherit;
   text-decoration: none;
