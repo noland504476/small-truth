@@ -29,7 +29,7 @@ export default function ReadPage() {
         </div>
 
         <div className="read-links">
-          <Link href="/review" className="choice-link">
+          <Link href="/review" className="choice">
             Please review this post
           </Link>
         </div>
@@ -47,7 +47,7 @@ export default function ReadPage() {
           If accepted, it will appear briefly, then fade quietly away.
         </p>
 
-        <Link href="/submit" className="choice-link">
+        <Link href="/submit" className="choice">
           Submit a truth
         </Link>
       </section>
