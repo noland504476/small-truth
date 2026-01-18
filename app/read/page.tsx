@@ -5,6 +5,7 @@ export default function ReadPage() {
     <main>
       <h1>Small Truths</h1>
 
+      {/* Truth card */}
       <section>
         <div>
           <p>{/* truth text will be injected here */}</p>
@@ -14,29 +15,31 @@ export default function ReadPage() {
             See another truth tomorrow.
           </p>
         </div>
+      </section>
 
-<section>
-  <div className="read-links">
-    <Link href="/review" legacyBehavior>
-      <a className="choice">Please review this post</a>
-    </Link>
-  </div>
+      {/* Review link */}
+      <div className="read-links">
+        <Link href="/review" legacyBehavior>
+          <a className="choice">Please review this post</a>
+        </Link>
+      </div>
 
-  <section className="submit-prompt">
-    <h2>Something to share?</h2>
-    <p>
-      Contribute a small truth of your own.
-      <br />
-      Your writing will be anonymous.
-    </p>
+      {/* Submit prompt */}
+      <section className="submit-prompt">
+        <h2>Something to share?</h2>
+        <p>
+          Contribute a small truth of your own.
+          <br />
+          Your writing will be anonymous.
+        </p>
 
-    <Link href="/submit" legacyBehavior>
-      <a className="choice">Submit a truth</a>
-    </Link>
-  </section>
-</section>
+        <Link href="/submit" legacyBehavior>
+          <a className="choice">Submit a truth</a>
+        </Link>
+      </section>
     </main>
   );
 }
+
 
 
