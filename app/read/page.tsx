@@ -27,12 +27,11 @@ export default function ReadPage() {
             </span>
           </div>
         </div>
-<Link href="/review">
-  <span className="choice">Please review this post</span>
-</Link>
-        <p>
-       <a href="/review" className="choice">Please review this post</a>
-        </p>
+  <div className="read-links">
+        <Link href="/review" className="choice">
+          Please review this post
+        </Link>
+      </div>
         </section>
       
       {/* Submission prompt */}
