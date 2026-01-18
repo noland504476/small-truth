@@ -29,7 +29,7 @@ export default function ReadPage() {
         </div>
 
         <div className="read-links">
-          <Link href="/review" className="choice-links">
+          <Link href="/review" className="choice-link">
             Please review this post
           </Link>
         </div>
