@@ -29,7 +29,7 @@ export default function ReadPage() {
         </div>
 
         <div className="review-link">
-          <Link href="/review" className="muted-link">
+          <Link href="/review" className="choice-link">
             Please review this post
           </Link>
         </div>
@@ -46,7 +46,7 @@ export default function ReadPage() {
           If accepted, it will appear briefly, then fade quietly away.
         </p>
 
-        <Link href="/submit" className="primary-button">
+        <Link href="/submit" className="choice-link">
           Submit a truth
         </Link>
       </section>
