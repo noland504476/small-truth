@@ -1,3 +1,7 @@
+body {
+  outline: 10px solid red;
+}
+
 :root {
   --bg-light: #f7f6f3;
   --bg-muted: #efeee9;
