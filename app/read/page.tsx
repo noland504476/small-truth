@@ -1,38 +1,69 @@
-export default function ReadTruth() {
+import Link from "next/link";
+
+export default function ReadPage() {
   return (
-    <main style={{ maxWidth: "680px", margin: "0 auto", padding: "4rem 1.5rem", lineHeight: 1.6 }}>
-      
-      <p style={{ marginBottom: "3rem", color: "#555" }}>
-        A small truth
-      </p>
+    <main className="page">
+      {/* Header */}
+      <header className="read-header">
+        <h1 className="site-title">Small Truths</h1>
+      </header>
 
-      <p style={{ fontSize: "1.25rem", marginBottom: "2.5rem" }}>
-        I thought starting over would feel dramatic.
-        <br />
-        <br />
-        Mostly it felt quiet.
-        <br />
-        <br />
-        Like putting things down one by one
-        and realizing I didn’t need to pick them back up.
-      </p>
+      <hr className="divider" />
 
-      <p style={{ marginBottom: "4rem", color: "#555" }}>
-        — anonymous
-      </p>
+      {/* Truth card (content comes from DB later) */}
+      <section className="truth-wrapper">
+        <div className="truth-card">
+          <p className="truth-text">
+            {/* truth text will be injected here */}
+          </p>
 
-      <hr style={{ marginBottom: "3rem" }} />
+          <p className="truth-meta">
+            {/* category / context will be injected here */}
+          </p>
 
-      <div>
-        <p style={{ fontWeight: 500, marginBottom: "1rem" }}>
-          See another truth tomorrow 
+          <div className="truth-actions">
+            <span className="muted-text">
+              See another truth tomorrow.
+            </span>
+          </div>
+        </div>
+
+        <div className="review-link">
+          <Link href="/review" className="muted-link">
+            Please review this post
+          </Link>
+        </div>
+      </section>
+
+      {/* Submission prompt */}
+      <section className="submit-prompt">
+        <h2 className="prompt-title">Something to share?</h2>
+        <p className="prompt-text">
+          Contribute a small truth of your own.
+          <br />
+          Your writing will be anonymous.
+          <br />
+          If accepted, it will appear briefly, then fade quietly away.
         </p>
 
-        <p style={{ fontWeight: 500 }}>
+        <Link href="/submit" className="primary-button">
           Submit a truth
-        </p>
-      </div>
+        </Link>
+      </section>
 
+      <hr className="divider" />
+
+      {/* Footer */}
+      <footer className="footer">
+        <Link href="/about">About</Link>
+        <span> | </span>
+        <Link href="/submissions">Submissions</Link>
+        <span> | </span>
+        <Link href="/terms">Terms</Link>
+        <span> | </span>
+        <Link href="/privacy">Privacy</Link>
+      </footer>
     </main>
   );
 }
+
