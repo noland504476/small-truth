@@ -15,23 +15,25 @@ export default function ReadPage() {
           </p>
         </div>
 
-<div className="read-links">
-  <Link href="/review" legacyBehavior>
-    <a className="choice">Please review this post</a>
-  </Link>
-</div>
+<section>
+  <div className="read-links">
+    <Link href="/review" legacyBehavior>
+      <a className="choice">Please review this post</a>
+    </Link>
+  </div>
 
-<section className="submit-prompt">
-  <h2>Something to share?</h2>
-  <p>
-    Contribute a small truth of your own.
-    <br />
-    Your writing will be anonymous.
-  </p>
+  <section className="submit-prompt">
+    <h2>Something to share?</h2>
+    <p>
+      Contribute a small truth of your own.
+      <br />
+      Your writing will be anonymous.
+    </p>
 
-  <Link href="/submit" legacyBehavior>
-    <a className="choice">Submit a truth</a>
-  </Link>
+    <Link href="/submit" legacyBehavior>
+      <a className="choice">Submit a truth</a>
+    </Link>
+  </section>
 </section>
     </main>
   );
