@@ -199,5 +199,17 @@ a:hover {
   background: rgba(255, 255, 255, 0.35);
   transition: background 0.2s ease, border-color 0.2s ease;
 }
+.read-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
 
+.read-next {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+}
 
