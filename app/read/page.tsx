@@ -15,21 +15,24 @@ export default function ReadPage() {
           </p>
         </div>
 
-        <div style={{ marginTop: "2rem" }}>
-          <Link href="/review">Please review this post</Link>
-        </div>
-      </section>
+       <div className="read-links">
+  <Link href="/review" className="choice">
+    Please review this post
+  </Link>
+</div>
 
-      <section style={{ marginTop: "3rem" }}>
-        <h2>Something to share?</h2>
-        <p>
-          Contribute a small truth of your own.
-          <br />
-          Your writing will be anonymous.
-        </p>
+<section className="submit-prompt">
+  <h2>Something to share?</h2>
+  <p>
+    Contribute a small truth of your own.
+    <br />
+    Your writing will be anonymous.
+  </p>
 
-        <Link href="/submit">Submit a truth</Link>
-      </section>
+  <Link href="/submit" className="choice">
+    Submit a truth
+  </Link>
+</section>
     </main>
   );
 }
