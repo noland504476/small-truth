@@ -20,7 +20,7 @@ export default function ReadPage() {
     Please review this post
   </Link>
 </div>
-
+      </section>
 <section className="submit-prompt">
   <h2>Something to share?</h2>
   <p>
