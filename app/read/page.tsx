@@ -47,7 +47,7 @@ export default function ReadPage() {
           If accepted, it will appear briefly, then fade quietly away.
         </p>
 
-        <Link href="/submit" className="choice">
+        <Link href="/submit" className="choice-link">
           Submit a truth
         </Link>
       </section>
