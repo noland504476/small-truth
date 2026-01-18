@@ -23,17 +23,18 @@ export default function ReadPage() {
 
           <div className="truth-actions">
             <span className="muted-text">
-              See another truth tomorrow.
+              See another truth tomorrow POO POO.
             </span>
           </div>
         </div>
 <Link href="/review">
   <span className="choice">Please review this post</span>
 </Link>
-        
+        <p>
        <a href="/review" className="choice">Please review this post</a>
-      </section>
-
+        </p>
+        </section>
+      
       {/* Submission prompt */}
       <section className="submit-prompt">
         <h2 className="prompt-title">Something to share?</h2>
