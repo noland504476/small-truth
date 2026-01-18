@@ -10,7 +10,7 @@ export default function ReadPage() {
 
       <hr className="divider" />
 
-      {/* Truth card (content comes from DB later) */}
+      {/* Truth card */}
       <section className="truth-wrapper">
         <div className="truth-card">
           <p className="truth-text">
@@ -23,20 +23,22 @@ export default function ReadPage() {
 
           <div className="truth-actions">
             <span className="muted-text">
-              See another truth tomorrow POO POO.
+              See another truth tomorrow.
             </span>
           </div>
         </div>
-  <div className="read-links">
-        <Link href="/review" className="choice">
-          Please review this post
-        </Link>
-      </div>
-        </section>
-      
+
+        <div className="read-links">
+          <Link href="/review" className="choice">
+            Please review this post
+          </Link>
+        </div>
+      </section>
+
       {/* Submission prompt */}
       <section className="submit-prompt">
         <h2 className="prompt-title">Something to share?</h2>
+
         <p className="prompt-text">
           Contribute a small truth of your own.
           <br />
@@ -48,10 +50,6 @@ export default function ReadPage() {
         <Link href="/submit" className="choice">
           Submit a truth
         </Link>
-     <Link href="/submit" passHref legacyBehavior>
-  <a className="choice">Submit a truth</a>
-</Link>
-      
       </section>
 
       <hr className="divider" />
