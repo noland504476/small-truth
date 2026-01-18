@@ -48,6 +48,10 @@ export default function ReadPage() {
         <Link href="/submit" className="choice">
           Submit a truth
         </Link>
+     <Link href="/submit" passHref legacyBehavior>
+  <a className="choice">Submit a truth</a>
+</Link>
+      
       </section>
 
       <hr className="divider" />
