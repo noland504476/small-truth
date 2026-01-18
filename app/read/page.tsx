@@ -27,7 +27,10 @@ export default function ReadPage() {
             </span>
           </div>
         </div>
-
+<Link href="/review">
+  <span className="choice">Please review this post</span>
+</Link>
+        
        <a href="/review" className="choice">Please review this post</a>
       </section>
 
