@@ -28,7 +28,7 @@ export default function ReadPage() {
           </div>
         </div>
 
-       <a href="/review" className="choice-link">Please review this post</a>
+       <a href="/review" className="choice">Please review this post</a>
       </section>
 
       {/* Submission prompt */}
