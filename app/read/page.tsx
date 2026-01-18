@@ -1,17 +1,20 @@
-import Link from "next/link";
-
 export default function ReadPage() {
   return (
     <main>
       <h1>Small Truths</h1>
 
       {/* Truth card */}
-      <section>
-        <div>
-          <p>{/* truth text will be injected here */}</p>
-          <p>{/* category meta will be injected here */}</p>
+      <section className="truth-wrapper">
+        <div className="truth-card">
+          <p className="truth-text">
+            {/* truth text will be injected here */}
+          </p>
 
-          <p style={{ opacity: 0.6, fontSize: "0.9rem" }}>
+          <p className="truth-meta">
+            {/* category meta will be injected here */}
+          </p>
+
+          <p className="read-next">
             See another truth tomorrow.
           </p>
         </div>
@@ -19,9 +22,9 @@ export default function ReadPage() {
 
       {/* Review link */}
       <div className="read-links">
-        <Link href="/review" legacyBehavior>
-          <a className="choice">Please review this post</a>
-        </Link>
+        <a href="/review" className="choice">
+          Please review this post
+        </a>
       </div>
 
       {/* Submit prompt */}
@@ -33,9 +36,9 @@ export default function ReadPage() {
           Your writing will be anonymous.
         </p>
 
-        <Link href="/submit" legacyBehavior>
-          <a className="choice">Submit a truth</a>
-        </Link>
+        <a href="/submit" className="choice">
+          Submit a truth
+        </a>
       </section>
     </main>
   );
